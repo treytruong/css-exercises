@@ -18,3 +18,16 @@ You don't need to worry about the actual functionality here; we've just written 
 
 - The pop-up slides down into position when you click the open button and slides back up when you click 'close modal'
 - The opacity fades smoothly in and out when toggling the modal
+
+
+ <div class="backdrop"></div>
+    <div class="popup-modal">
+      <h1>Look at me!</h1>
+      <p>I'm a pop up dialog!</p>
+      <button id="close-modal">Close Modal</button>
+    </div>
+    <div class="button-container">
+      <button id="trigger-modal">Open Modal</button>
+      
+
+

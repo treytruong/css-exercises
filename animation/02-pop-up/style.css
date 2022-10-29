@@ -35,9 +35,9 @@ button {
   top: 50%;
   left: 50%;
   transform-origin: center;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -120%);
   pointer-events: none;
-  opacity: 0%;
+  opacity: 20%;
   text-align: center;
 }
 .popup-modal p {
@@ -61,3 +61,7 @@ button {
   opacity: 30%;
 }
 
+#trigger-modal:hover {
+ transform: translate(20px);
+ transform: scale(1.5);
+}

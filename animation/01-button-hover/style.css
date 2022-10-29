@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
+  transition-duration: 4s;
 }
 
 button {
@@ -15,5 +16,12 @@ button {
   color: white;
   font-size: 18px;
   padding: 16px 24px;
-  text-align: center;
+  text-align: center;  
+  transition: transform  1.5s ease-in-out;  
 }
+
+#transition-container button:hover {
+  transform: scale(2);
+}
+
+
