@@ -35,9 +35,9 @@ button {
   top: 50%;
   left: 50%;
   transform-origin: center;
-  transform: translate(-50%, -120%);
+  transform: translate(-50%, -150%);
   pointer-events: none;
-  opacity: 20%;
+  opacity: 0%;
   text-align: center;
 }
 .popup-modal p {
@@ -55,13 +55,20 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+transition: all .5s ease-in;
+-webkit-transition: all .5s ease-in;
+-moz-transition: all .5s ease-in;
+-o-transition: all .5s ease-in;
+  transform: translate(-50%, -75%);
 }
 
 .backdrop.show {
-  opacity: 30%;
+  opacity: 60%;
 }
-
-#trigger-modal:hover {
- transform: translate(20px);
- transform: scale(1.5);
-}
+/*
+#trigger-modal:hover #popup-modal {
+ transform: translateY(20px);
+ -webkit-transform: translateY(20px);
+-o-transform: translateY(20px);
+-moz-transform: translateY(20px);
+}*/
